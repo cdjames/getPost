@@ -1,0 +1,28 @@
+<!-- 
+	** Author: Collin James, CS 290
+	** Date: 5/10/16
+	** Description: Activity: Get and Post checker, test page
+-->
+<div>
+	<form id="doPost" method="post" action="/getPost?test=true">
+	<!-- <form id="doPost" method="post"> --> <!-- UPDATE THIS -->
+      <fieldset>
+        <legend>Send post request</legend>
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name">
+        <label for="listname">List Name</label>
+        <input type="text" name="listname" id="listname">
+         <label for="DOB">Date of </label>
+        <input type="text" name="DOB" id="DOB">
+        <!-- <input type="submit" id="add" value="Add New Field"> -->
+        <input type="submit" id="send" value="Send Post">
+      </fieldset>
+    </form>
+</div>
+<script src="app.js"></script>
+<!-- <div>
+	<ul>
+		<li> your random number is {{rndm}}
+		</li>
+	</ul>
+</div> -->
